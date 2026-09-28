@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lumis OS</title>
+<meta name="description" content="Lumis OS is a personal desktop assistant built and used by one person on his own computer.">
+<style>
+  :root { --bg: #fbfaf7; --fg: #1d1c1a; --muted: #5f5b54; --rule: #e4e0d8; --link: #2b59c3; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151514; --fg: #ecebe7; --muted: #a6a29a; --rule: #2d2c29; --link: #8fb0ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.6 -apple-system, "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 3.5rem 1rem 4rem; }
+  h1 { font-size: 2rem; margin: 0 0 .25rem; letter-spacing: -.01em; }
+  .lede { color: var(--muted); margin: 0 0 2rem; }
+  h2 { font-size: 1.1rem; margin: 2rem 0 .5rem; }
+  ul { padding-left: 1.2rem; }
+  a { color: var(--link); }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Lumis OS</h1>
+  <p class="lede">A personal desktop assistant, built and used by Cole Scheels on his own Windows computer.</p>
+
+  <p>Lumis OS is not a public product and has no other users. It runs on one machine and
+  helps its owner with his own day: his calendar, his inbox, his training log, and his
+  own projects.</p>
+
+  <h2>What it connects to</h2>
+  <ul>
+    <li><strong>Google Calendar</strong>: it reads the owner's primary calendar so it can answer
+      "what's on tomorrow", and creates, updates or removes events when he asks it to.</li>
+    <li><strong>Gmail</strong>: it reads and searches his inbox, marks, labels, archives or
+      trashes messages when he asks, and writes drafts for him to review.</li>
+  </ul>
+  <p>Access is granted by the owner through Google's own consent screen and can be revoked
+  at any time from <a href="https://myaccount.google.com/permissions">Google Account &rarr; Third-party access</a>.</p>
+
+  <h2>Privacy</h2>
+  <p>How Google data is used, stored and protected is set out in the
+  <a href="privacy.html">privacy policy</a>.</p>
+
+  <footer>
+    Lumis OS &middot; <a href="privacy.html">Privacy policy</a> &middot; <a href="terms.html">Terms of service</a> &middot; Contact: <a href="mailto:colescheels2@gmail.com">colescheels2@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
