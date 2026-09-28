@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lumis OS Privacy Policy</title>
+<meta name="description" content="How Lumis OS uses, stores and protects Google user data.">
+<style>
+  :root { --bg: #fbfaf7; --fg: #1d1c1a; --muted: #5f5b54; --rule: #e4e0d8; --link: #2b59c3; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151514; --fg: #ecebe7; --muted: #a6a29a; --rule: #2d2c29; --link: #8fb0ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.6 -apple-system, "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 3.5rem 1rem 4rem; }
+  h1 { font-size: 2rem; margin: 0 0 .25rem; letter-spacing: -.01em; }
+  .lede { color: var(--muted); margin: 0 0 2rem; }
+  h2 { font-size: 1.1rem; margin: 2rem 0 .5rem; }
+  ul { padding-left: 1.2rem; }
+  a { color: var(--link); }
+  .limited { border-left: 3px solid var(--rule); padding-left: 1rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="lede">Lumis OS &middot; effective 26 September 2026</p>
+
+  <p>Lumis OS is a personal desktop assistant built and used by Cole Scheels on his own
+  computer. It has a single user, its owner, and is not offered to anyone else. This policy
+  explains what Google user data it accesses, why, and what happens to it.</p>
+
+  <h2>Google data it accesses</h2>
+  <ul>
+    <li><strong>Gmail</strong> (<code>gmail.modify</code>): reading and searching messages and
+      threads; marking messages read, labelling, archiving or moving them to trash when the owner
+      asks; creating drafts; and sending a message only when the owner asks it to.
+      It never permanently deletes mail.</li>
+    <li><strong>Google Calendar</strong> (<code>calendar</code>): reading events on the owner's
+      primary calendar; creating, updating or deleting events when he asks.</li>
+  </ul>
+
+  <h2>How it uses that data</h2>
+  <p>Only to do what the owner asks of his own assistant: answer questions about his schedule
+  and inbox, draft replies, keep his calendar up to date, and remind him of what matters.
+  The data is not used for advertising, is not sold, and is not used to build profiles of
+  anyone other than the owner.</p>
+  <p>To answer a request, the relevant email or calendar text may be sent, as part of that
+  request, to the AI model provider that generates the reply (currently models reached through
+  OpenRouter, Anthropic and xAI). It is sent only to produce that reply for the owner.</p>
+  <p><strong>Google Workspace APIs are not used to develop, improve, or train non-personalized AI
+  and/or ML models.</strong> Gmail and Calendar data obtained through them is never used to train
+  any AI or machine-learning model.</p>
+
+  <h2>Where it is stored</h2>
+  <p>Google access tokens are stored only on the owner's computer, encrypted with Windows' own
+  per-user data protection. Summaries of recent mail and calendar events are kept in local files
+  on that computer so the assistant can recall them. Nothing is stored on a server operated for
+  Lumis OS; there is none.</p>
+
+  <h2>Sharing</h2>
+  <p>Google user data is not shared, transferred or disclosed to anyone except the AI model
+  providers named above, and only as described above, or where required by law.</p>
+
+  <div class="limited">
+    <p>Lumis OS's use of information received from Google APIs will adhere to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+    User Data Policy</a>, including the Limited Use requirements.</p>
+    <p>The use of information received from Google Workspace scopes will adhere to the
+    <a href="https://developers.google.com/workspace/workspace-api-user-data-developer-policy">Google
+    User Data Policy</a>, including the Limited Use requirements.</p>
+  </div>
+
+  <h2>How it is protected</h2>
+  <p>Lumis OS runs only on its owner's password-protected Windows account. Google tokens are
+  encrypted at rest with Windows' per-user data protection, all traffic to Google and to the model
+  providers uses HTTPS, and no Google data is exposed to any network service run for Lumis OS.</p>
+
+  <h2>Retention</h2>
+  <p>Local summaries of mail and calendar events are kept only as long as they are useful to the
+  owner and are replaced as the mirrors refresh; Gmail and Calendar themselves remain the record.
+  Revoking access (below) stops all further access immediately.</p>
+
+  <h2>Revoking access and deletion</h2>
+  <p>Access can be revoked at any time at
+  <a href="https://myaccount.google.com/permissions">Google Account &rarr; Third-party access</a>,
+  or by disconnecting Google in Lumis OS's settings, which deletes the stored tokens. The local
+  summaries can be deleted from the computer at any time.</p>
+
+  <h2>Changes and contact</h2>
+  <p>Any change to this policy will be posted on this page with a new effective date.
+  Questions: <a href="mailto:colescheels2@gmail.com">colescheels2@gmail.com</a>.</p>
+
+  <footer>
+    <a href="index.html">Lumis OS</a> &middot; Privacy policy &middot; <a href="terms.html">Terms of service</a>
+  </footer>
+</main>
+</body>
+</html>
